@@ -1,0 +1,98 @@
+[
+  {
+    "id": "quad_attack",
+    "name": "四連突",
+    "bp": 4,
+    "type": "物理",
+    "traits": { "dual_wield": 4 },
+    "stats": { "DEX": 2, "AGI": 2 }
+  },
+  {
+    "id": "delta_thrust",
+    "name": "デルタスラスト",
+    "bp": 2,
+    "type": "物理",
+    "traits": { "dual_wield": 4 },
+    "stats": { "HP": 15, "MP": 15 }
+  },
+  {
+    "id": "heavy_strike",
+    "name": "ヘヴィストライク",
+    "bp": 3,
+    "type": "物理",
+    "traits": { "dual_wield": 4 },
+    "stats": { "STR": 2 }
+  },
+  {
+    "id": "barren_breath",
+    "name": "バレンブレス",
+    "bp": 2,
+    "type": "魔法",
+    "traits": { "dual_wield": 4 },
+    "stats": { "STR": 2 }
+  },
+  {
+    "id": "cocoon",
+    "name": "コクーン",
+    "bp": 1,
+    "type": "強化",
+    "traits": {},
+    "stats": { "VIT": 1 }
+  },
+  {
+    "id": "erratic_flutter",
+    "name": "エラチックフラッター",
+    "bp": 6,
+    "type": "強化",
+    "traits": { "fast_cast": 8 },
+    "stats": { "AGI": 3 }
+  },
+  {
+    "id": "subduction",
+    "name": "サブダックション",
+    "bp": 6,
+    "type": "魔法",
+    "traits": { "magic_acc": 4 },
+    "stats": { "INT": 3 }
+  },
+  {
+    "id": "sudden_lunge",
+    "name": "サドンランジ",
+    "bp": 4,
+    "type": "物理",
+    "traits": { "store_tp": 4 },
+    "stats": { "AGI": 2 }
+  },
+  {
+    "id": "battery_charge",
+    "name": "バッテリーチャージ",
+    "bp": 3,
+    "type": "強化",
+    "traits": { "refresh": 4 },
+    "stats": { "MP": 10 }
+  },
+  {
+    "id": "magic_fruit",
+    "name": "マジックフルーツ",
+    "bp": 3,
+    "type": "回復",
+    "traits": { "cure_potency": 4 },
+    "stats": { "CHR": 1 }
+  },
+  {
+    "id": "plenilune_embrace",
+    "name": "プレニルンエンブレイス",
+    "bp": 4,
+    "type": "回復",
+    "traits": { "physical_acc": 4 },
+    "stats": { "HP": 10, "MP": 10 }
+  },
+  {
+    "id": "fantod",
+    "name": "ファントムタバール",
+    "bp": 3,
+    "type": "強化",
+    "traits": { "attack_up": 4 },
+    "stats": { "STR": 1 }
+  }
+]
