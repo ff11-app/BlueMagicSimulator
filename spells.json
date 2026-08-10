@@ -1,35 +1,43 @@
 [
   {
-    "id": "quad_attack",
-    "name": "四連突",
-    "bp": 4,
+    "id": "foot_kick",
+    "name": "フットキック",
+    "bp": 1,
     "type": "物理",
-    "traits": { "dual_wield": 4 },
-    "stats": { "DEX": 2, "AGI": 2 }
+    "traits": {},
+    "stats": { "AGI": 1 }
   },
   {
-    "id": "delta_thrust",
-    "name": "デルタスラスト",
-    "bp": 2,
-    "type": "物理",
-    "traits": { "dual_wield": 4 },
-    "stats": { "HP": 15, "MP": 15 }
+    "id": "pollen",
+    "name": "花粉",
+    "bp": 1,
+    "type": "回復",
+    "traits": {},
+    "stats": { "HP": 5 }
   },
   {
-    "id": "heavy_strike",
-    "name": "ヘヴィストライク",
-    "bp": 3,
-    "type": "物理",
-    "traits": { "dual_wield": 4 },
-    "stats": { "STR": 2 }
-  },
-  {
-    "id": "barren_breath",
-    "name": "バレンブレス",
-    "bp": 2,
+    "id": "sandspin",
+    "name": "サンドスピン",
+    "bp": 1,
     "type": "魔法",
-    "traits": { "dual_wield": 4 },
-    "stats": { "STR": 2 }
+    "traits": {},
+    "stats": { "VIT": 1 }
+  },
+  {
+    "id": "sprout_smack",
+    "name": "スプラウトスマック",
+    "bp": 1,
+    "type": "物理",
+    "traits": {},
+    "stats": { "MND": 1 }
+  },
+  {
+    "id": "wild_oats",
+    "name": "ワイルドオーツ",
+    "bp": 1,
+    "type": "物理",
+    "traits": {},
+    "stats": { "HP": 5 }
   },
   {
     "id": "cocoon",
@@ -40,28 +48,628 @@
     "stats": { "VIT": 1 }
   },
   {
-    "id": "erratic_flutter",
-    "name": "エラチックフラッター",
-    "bp": 6,
-    "type": "強化",
-    "traits": { "fast_cast": 8 },
-    "stats": { "AGI": 3 }
+    "id": "power_attack",
+    "name": "パワーアタック",
+    "bp": 1,
+    "type": "物理",
+    "traits": {},
+    "stats": { "STR": 1 }
   },
   {
-    "id": "subduction",
-    "name": "サブダックション",
-    "bp": 6,
+    "id": "queasyshroom",
+    "name": "クィージーシュルーム",
+    "bp": 2,
+    "type": "物理",
+    "traits": {},
+    "stats": { "MND": 1 }
+  },
+  {
+    "id": "metallic_body",
+    "name": "メタリックボディ",
+    "bp": 1,
+    "type": "強化",
+    "traits": {},
+    "stats": { "VIT": 1 }
+  },
+  {
+    "id": "battle_dance",
+    "name": "バトルダンス",
+    "bp": 2,
+    "type": "物理",
+    "traits": {},
+    "stats": { "DEX": 1 }
+  },
+  {
+    "id": "feather_storm",
+    "name": "フェザーシュトルム",
+    "bp": 2,
+    "type": "物理",
+    "traits": {},
+    "stats": { "AGI": 1 }
+  },
+  {
+    "id": "head_butt",
+    "name": "ヘッドバット",
+    "bp": 2,
+    "type": "物理",
+    "traits": {},
+    "stats": { "DEX": 1 }
+  },
+  {
+    "id": "healing_breeze",
+    "name": "ヒーリングブリーズ",
+    "bp": 4,
+    "type": "回復",
+    "traits": { "cure_potency": 4 },
+    "stats": { "CHR": 2 }
+  },
+  {
+    "id": "sheep_song",
+    "name": "シープソング",
+    "bp": 2,
+    "type": "弱体",
+    "traits": {},
+    "stats": { "CHR": 1 }
+  },
+  {
+    "id": "helldive",
+    "name": "ヘルダイブ",
+    "bp": 2,
+    "type": "物理",
+    "traits": {},
+    "stats": { "AGI": 1 }
+  },
+  {
+    "id": "cursed_sphere",
+    "name": "カースドスフィア",
+    "bp": 2,
     "type": "魔法",
-    "traits": { "magic_acc": 4 },
+    "traits": {},
+    "stats": { "MND": 1 }
+  },
+  {
+    "id": "blastbomb",
+    "name": "ブラストボム",
+    "bp": 2,
+    "type": "魔法",
+    "traits": {},
+    "stats": { "STR": 1 }
+  },
+  {
+    "id": "bludgeon",
+    "name": "メッタ打ち",
+    "bp": 2,
+    "type": "物理",
+    "traits": {},
+    "stats": { "STR": 1 }
+  },
+  {
+    "id": "claw_cyclone",
+    "name": "クロウサイクロン",
+    "bp": 2,
+    "type": "物理",
+    "traits": {},
+    "stats": { "STR": 1 }
+  },
+  {
+    "id": "poison_breath",
+    "name": "ポイズンブレス",
+    "bp": 2,
+    "type": "魔法",
+    "traits": {},
+    "stats": { "MND": 1 }
+  },
+  {
+    "id": "soporific",
+    "name": "ソポフィック",
+    "bp": 2,
+    "type": "弱体",
+    "traits": {},
+    "stats": { "MP": 10 }
+  },
+  {
+    "id": "screwdriver",
+    "name": "スクリュードライバー",
+    "bp": 3,
+    "type": "物理",
+    "traits": {},
+    "stats": { "VIT": 1, "MND": 1 }
+  },
+  {
+    "id": "grand_slam",
+    "name": "グランドスラム",
+    "bp": 2,
+    "type": "物理",
+    "traits": {},
+    "stats": { "VIT": 1 }
+  },
+  {
+    "id": "wild_carrot",
+    "name": "ワイルドキャロット",
+    "bp": 3,
+    "type": "回復",
+    "traits": { "cure_potency": 4 },
+    "stats": { "MND": 1 }
+  },
+  {
+    "id": "chaotic_eye",
+    "name": "カオティックアイ",
+    "bp": 2,
+    "type": "弱体",
+    "traits": {},
+    "stats": { "AGI": 1 }
+  },
+  {
+    "id": "sound_blast",
+    "name": "サウンドブラスト",
+    "bp": 1,
+    "type": "弱体",
+    "traits": {},
+    "stats": { "INT": 1 }
+  },
+  {
+    "id": "death_ray",
+    "name": "デスレイ",
+    "bp": 3,
+    "type": "魔法",
+    "traits": {},
+    "stats": { "INT": 2 }
+  },
+  {
+    "id": "smite_of_rage",
+    "name": "スマイトオブレイジ",
+    "bp": 3,
+    "type": "物理",
+    "traits": {},
+    "stats": { "STR": 2 }
+  },
+  {
+    "id": "digest",
+    "name": "消化",
+    "bp": 2,
+    "type": "魔法",
+    "traits": {},
+    "stats": { "HP": 10 }
+  },
+  {
+    "id": "pinecone_bomb",
+    "name": "パインコンボム",
+    "bp": 2,
+    "type": "物理",
+    "traits": {},
+    "stats": { "STR": 1 }
+  },
+  {
+    "id": "jet_stream",
+    "name": "ジェットストリーム",
+    "bp": 4,
+    "type": "物理",
+    "traits": {},
+    "stats": { "DEX": 2 }
+  },
+  {
+    "id": "upper_cut",
+    "name": "アッパーカット",
+    "bp": 3,
+    "type": "物理",
+    "traits": {},
+    "stats": { "STR": 2 }
+  },
+  {
+    "id": "terror_touch",
+    "name": "テラータッチ",
+    "bp": 3,
+    "type": "物理",
+    "traits": {},
+    "stats": { "DEX": 1 }
+  },
+  {
+    "id": "mandibular_bite",
+    "name": "マンディブルバイト",
+    "bp": 3,
+    "type": "物理",
+    "traits": {},
+    "stats": { "INT": 2 }
+  },
+  {
+    "id": "blank_gaze",
+    "name": "ブランクゲイズ",
+    "bp": 2,
+    "type": "弱体",
+    "traits": {},
+    "stats": { "CHR": 1 }
+  },
+  {
+    "id": "mysterious_light",
+    "name": "マジックハンマー",
+    "bp": 3,
+    "type": "魔法",
+    "traits": {},
+    "stats": { "MND": 2 }
+  },
+  {
+    "id": "cold_wave",
+    "name": "コールドウェーブ",
+    "bp": 2,
+    "type": "弱体",
+    "traits": {},
+    "stats": { "INT": 1 }
+  },
+  {
+    "id": "magnetite_cloud",
+    "name": "マグネティトクラウド",
+    "bp": 3,
+    "type": "魔法",
+    "traits": {},
+    "stats": { "VIT": 2 }
+  },
+  {
+    "id": "stinking_breath",
+    "name": "スティンキングブレス",
+    "bp": 3,
+    "type": "弱体",
+    "traits": {},
+    "stats": { "MND": 2 }
+  },
+  {
+    "id": "blitzstrahl",
+    "name": "ブリッツシュトラール",
+    "bp": 4,
+    "type": "魔法",
+    "traits": {},
+    "stats": { "DEX": 2 }
+  },
+  {
+    "id": "terror_eye",
+    "name": "アイスブレイク",
+    "bp": 4,
+    "type": "魔法",
+    "traits": {},
+    "stats": { "INT": 2 }
+  },
+  {
+    "id": "bicontext",
+    "name": "B.シカトリス",
+    "bp": 3,
+    "type": "物理",
+    "traits": {},
+    "stats": { "STR": 2 }
+  },
+  {
+    "id": "geist_wall",
+    "name": "ガイストウォール",
+    "bp": 3,
+    "type": "弱体",
+    "traits": {},
+    "stats": { "MND": 1 }
+  },
+  {
+    "id": "awful_eye",
+    "name": "アーフルアイ",
+    "bp": 2,
+    "type": "弱体",
+    "traits": {},
+    "stats": { "VIT": 1 }
+  },
+  {
+    "id": "blood_drain",
+    "name": "吸血",
+    "bp": 2,
+    "type": "魔法",
+    "traits": {},
+    "stats": { "HP": 5, "MP": 5 }
+  },
+  {
+    "id": "claw_frenzy",
+    "name": "サウザンドスピア",
+    "bp": 3,
+    "type": "物理",
+    "traits": {},
+    "stats": { "AGI": 2 }
+  },
+  {
+    "id": "claw_strike",
+    "name": "フライトフルロア",
+    "bp": 2,
+    "type": "弱体",
+    "traits": {},
+    "stats": { "AGI": 1 }
+  },
+  {
+    "id": "magic_barrier",
+    "name": "マジックバリア",
+    "bp": 3,
+    "type": "強化",
+    "traits": {},
+    "stats": { "MND": 2 }
+  },
+  {
+    "id": "jettatura",
+    "name": "ジェタチュラ",
+    "bp": 4,
+    "type": "弱体",
+    "traits": {},
+    "stats": { "CHR": 2 }
+  },
+  {
+    "id": "feather_barrier",
+    "name": "フェザーバリア",
+    "bp": 2,
+    "type": "強化",
+    "traits": {},
+    "stats": { "AGI": 1 }
+  },
+  {
+    "id": "refueling",
+    "name": "リフュエリング",
+    "bp": 4,
+    "type": "強化",
+    "traits": { "fast_cast": 4 },
+    "stats": { "AGI": 2 }
+  },
+  {
+    "id": "sickle_slash",
+    "name": "シックルスラッシュ",
+    "bp": 4,
+    "type": "物理",
+    "traits": {},
+    "stats": { "DEX": 2 }
+  },
+  {
+    "id": "ice_break",
+    "name": "超振動",
+    "bp": 4,
+    "type": "物理",
+    "traits": {},
+    "stats": { "STR": 2 }
+  },
+  {
+    "id": "frightful_roar",
+    "name": "フライトフルロア",
+    "bp": 3,
+    "type": "弱体",
+    "traits": {},
+    "stats": { "AGI": 2 }
+  },
+  {
+    "id": "self_destruct",
+    "name": "自爆",
+    "bp": 3,
+    "type": "魔法",
+    "traits": {},
+    "stats": { "STR": 2 }
+  },
+  {
+    "id": "mysterious_light_2",
+    "name": "ミステリアスライト",
+    "bp": 4,
+    "type": "魔法",
+    "traits": {},
+    "stats": { "CHR": 2 }
+  },
+  {
+    "id": "cold_wave_2",
+    "name": "コールドウェーブ",
+    "bp": 3,
+    "type": "弱体",
+    "traits": {},
+    "stats": { "INT": 2 }
+  },
+  {
+    "id": "filamented_hold",
+    "name": "フィラメンタスホールド",
+    "bp": 3,
+    "type": "弱体",
+    "traits": {},
+    "stats": { "VIT": 2 }
+  },
+  {
+    "id": "heat_breath",
+    "name": "ヒートブレス",
+    "bp": 4,
+    "type": "魔法",
+    "traits": {},
+    "stats": { "STR": 2 }
+  },
+  {
+    "id": "hydro_shot",
+    "name": "ハイドロショット",
+    "bp": 4,
+    "type": "物理",
+    "traits": {},
+    "stats": { "AGI": 2 }
+  },
+  {
+    "id": "cannonball",
+    "name": "キャノンボール",
+    "bp": 3,
+    "type": "物理",
+    "traits": {},
+    "stats": { "STR": 1, "VIT": 1 }
+  },
+  {
+    "id": "asuran_claws",
+    "name": "阿修羅",
+    "bp": 5,
+    "type": "物理",
+    "traits": {},
+    "stats": { "STR": 3 }
+  },
+  {
+    "id": "sub_zero_smash",
+    "name": "サブゼロスマッシュ",
+    "bp": 4,
+    "type": "物理",
+    "traits": {},
+    "stats": { "VIT": 2 }
+  },
+  {
+    "id": "ram_charge",
+    "name": "ラムチャージ",
+    "bp": 4,
+    "type": "物理",
+    "traits": {},
+    "stats": { "STR": 2 }
+  },
+  {
+    "id": "vertical_cleave",
+    "name": "バーチカルクリーヴ",
+    "bp": 4,
+    "type": "物理",
+    "traits": {},
+    "stats": { "STR": 2 }
+  },
+  {
+    "id": "disseverment",
+    "name": "ディセバーメント",
+    "bp": 5,
+    "type": "物理",
+    "traits": { "dual_wield": 4 },
+    "stats": { "DEX": 3, "AGI": 3 }
+  },
+  {
+    "id": "actinic_burst",
+    "name": "アクティニックバースト",
+    "bp": 4,
+    "type": "弱体",
+    "traits": {},
+    "stats": { "CHR": 3 }
+  },
+  {
+    "id": "reactor_cool",
+    "name": "リアクタークール",
+    "bp": 4,
+    "type": "強化",
+    "traits": {},
     "stats": { "INT": 3 }
   },
   {
-    "id": "sudden_lunge",
-    "name": "サドンランジ",
+    "id": "saline_salvo",
+    "name": "セイリーンコート",
+    "bp": 3,
+    "type": "強化",
+    "traits": {},
+    "stats": { "MND": 2 }
+  },
+  {
+    "id": "plasma_charge",
+    "name": "プラズマチャージ",
+    "bp": 5,
+    "type": "強化",
+    "traits": {},
+    "stats": { "DEX": 3 }
+  },
+  {
+    "id": "temporal_shift",
+    "name": "テンポラルシフト",
+    "bp": 5,
+    "type": "弱体",
+    "traits": {},
+    "stats": { "HP": 15, "MP": 15 }
+  },
+  {
+    "id": "vertical_cleave_2",
+    "name": "バニティドライブ",
     "bp": 4,
     "type": "物理",
-    "traits": { "store_tp": 4 },
+    "traits": {},
+    "stats": { "STR": 2 }
+  },
+  {
+    "id": "goblin_rush",
+    "name": "ゴブリンラッシュ",
+    "bp": 5,
+    "type": "物理",
+    "traits": {},
+    "stats": { "STR": 3, "DEX": 3 }
+  },
+  {
+    "id": "quad_continuation",
+    "name": "四連突",
+    "bp": 4,
+    "type": "物理",
+    "traits": { "dual_wield": 4 },
+    "stats": { "DEX": 2, "AGI": 2 }
+  },
+  {
+    "id": "benthic_typhoon",
+    "name": "ベンシクタイフーン",
+    "bp": 4,
+    "type": "物理",
+    "traits": {},
     "stats": { "AGI": 2 }
+  },
+  {
+    "id": "auroral_drape",
+    "name": "オーロラルドレープ",
+    "bp": 4,
+    "type": "弱体",
+    "traits": {},
+    "stats": { "MND": 2 }
+  },
+  {
+    "id": "dream_flower",
+    "name": "ドリームフラワー",
+    "bp": 3,
+    "type": "弱体",
+    "traits": {},
+    "stats": { "CHR": 2 }
+  },
+  {
+    "id": "charged_whisker",
+    "name": "チャージドホイスカー",
+    "bp": 6,
+    "type": "魔法",
+    "traits": {},
+    "stats": { "DEX": 4 }
+  },
+  {
+    "id": "thermal_pulse",
+    "name": "サーマルパルス",
+    "bp": 3,
+    "type": "魔法",
+    "traits": {},
+    "stats": { "VIT": 2 }
+  },
+  {
+    "id": "everyone_grudge",
+    "name": "みんなのうらみ",
+    "bp": 2,
+    "type": "魔法",
+    "traits": {},
+    "stats": { "MND": 1 }
+  },
+  {
+    "id": "minds_eye",
+    "name": "オカルテーション",
+    "bp": 3,
+    "type": "強化",
+    "traits": {},
+    "stats": { "VIT": 2 }
+  },
+  {
+    "id": "mortal_ray",
+    "name": "モータルレイ",
+    "bp": 4,
+    "type": "弱体",
+    "traits": {},
+    "stats": { "INT": 2 }
+  },
+  {
+    "id": "water_bomb",
+    "name": "ウォーターボム",
+    "bp": 3,
+    "type": "魔法",
+    "traits": {},
+    "stats": { "MND": 2 }
+  },
+  {
+    "id": "heavy_strike",
+    "name": "ヘヴィストライク",
+    "bp": 3,
+    "type": "物理",
+    "traits": { "dual_wield": 4 },
+    "stats": { "STR": 2 }
   },
   {
     "id": "battery_charge",
@@ -70,6 +678,14 @@
     "type": "強化",
     "traits": { "refresh": 4 },
     "stats": { "MP": 10 }
+  },
+  {
+    "id": "whirl_of_rage",
+    "name": "渦潮",
+    "bp": 5,
+    "type": "物理",
+    "traits": {},
+    "stats": { "STR": 3 }
   },
   {
     "id": "magic_fruit",
@@ -88,11 +704,955 @@
     "stats": { "HP": 10, "MP": 10 }
   },
   {
+    "id": "acrid_stream",
+    "name": "エクリプスメテオ",
+    "bp": 6,
+    "type": "魔法",
+    "traits": {},
+    "stats": { "INT": 4 }
+  },
+  {
+    "id": "regurgitation",
+    "name": "吐息",
+    "bp": 3,
+    "type": "魔法",
+    "traits": {},
+    "stats": { "MND": 2 }
+  },
+  {
+    "id": "barren_breath",
+    "name": "バレンブレス",
+    "bp": 2,
+    "type": "魔法",
+    "traits": { "dual_wield": 4 },
+    "stats": { "STR": 2 }
+  },
+  {
+    "id": "delta_thrust",
+    "name": "デルタスラスト",
+    "bp": 2,
+    "type": "物理",
+    "traits": { "dual_wield": 4 },
+    "stats": { "HP": 15, "MP": 15 }
+  },
+  {
+    "id": "sudden_lunge",
+    "name": "サドンランジ",
+    "bp": 4,
+    "type": "物理",
+    "traits": { "store_tp": 4 },
+    "stats": { "AGI": 2 }
+  },
+  {
     "id": "fantod",
     "name": "ファントムタバール",
     "bp": 3,
     "type": "強化",
     "traits": { "attack_up": 4 },
     "stats": { "STR": 1 }
+  },
+  {
+    "id": "erratic_flutter",
+    "name": "エラチックフラッター",
+    "bp": 6,
+    "type": "強化",
+    "traits": { "fast_cast": 8 },
+    "stats": { "AGI": 3 }
+  },
+  {
+    "id": "subduction",
+    "name": "サブダックション",
+    "bp": 6,
+    "type": "魔法",
+    "traits": { "magic_acc": 4 },
+    "stats": { "INT": 3 }
+  },
+  {
+    "id": "thrashing_assault",
+    "name": "スレッシングアサルト",
+    "bp": 7,
+    "type": "物理",
+    "traits": { "dual_wield": 8 },
+    "stats": { "STR": 4, "DEX": 4 }
+  },
+  {
+    "id": "nature_meditation",
+    "name": "ネイチャーメディテイト",
+    "bp": 6,
+    "type": "強化",
+    "traits": { "attack_up": 8 },
+    "stats": { "STR": 3 }
+  },
+  {
+    "id": "tempestuous_upheaval",
+    "name": "テンペストアップヒーヴ",
+    "bp": 6,
+    "type": "魔法",
+    "traits": {},
+    "stats": { "AGI": 3 }
+  },
+  {
+    "id": "rending_deluge",
+    "name": "レンディングデルージュ",
+    "bp": 6,
+    "type": "魔法",
+    "traits": {},
+    "stats": { "MND": 3 }
+  },
+  {
+    "id": "embalming_earth",
+    "name": "エンバームアース",
+    "bp": 6,
+    "type": "魔法",
+    "traits": {},
+    "stats": { "VIT": 3 }
+  },
+  {
+    "id": "paralyzing_triad",
+    "name": "パラライジングトライアド",
+    "bp": 6,
+    "type": "物理",
+    "traits": { "dual_wield": 8 },
+    "stats": { "STR": 3, "DEX": 3 }
+  },
+  {
+    "id": "foul_waters",
+    "name": "ファウルウォーター",
+    "bp": 5,
+    "type": "魔法",
+    "traits": {},
+    "stats": { "MND": 3 }
+  },
+  {
+    "id": "glutinous_dart",
+    "name": "グルティナスダート",
+    "bp": 2,
+    "type": "物理",
+    "traits": {},
+    "stats": { "HP": 15 }
+  },
+  {
+    "id": "retinal_glare",
+    "name": "レチナルグレア",
+    "bp": 6,
+    "type": "魔法",
+    "traits": { "magic_acc": 8 },
+    "stats": { "INT": 3 }
+  },
+  {
+    "id": "droning_whirlwind",
+    "name": "ドローニングワールウィンド",
+    "bp": 6,
+    "type": "魔法",
+    "traits": {},
+    "stats": { "AGI": 3 }
+  },
+  {
+    "id": "carcharian_verve",
+    "name": "カルカリリアンバーサク",
+    "bp": 3,
+    "type": "強化",
+    "traits": { "attack_up": 4 },
+    "stats": { "STR": 2 }
+  },
+  {
+    "id": "blistering_roar",
+    "name": "ブリステリロア",
+    "bp": 5,
+    "type": "弱体",
+    "traits": {},
+    "stats": { "STR": 3 }
+  },
+  {
+    "id": "searing_wind",
+    "name": "シアリングウィンド",
+    "bp": 6,
+    "type": "魔法",
+    "traits": {},
+    "stats": { "STR": 3 }
+  },
+  {
+    "id": "scouring_spate",
+    "name": "スカウリングスペイト",
+    "bp": 6,
+    "type": "魔法",
+    "traits": {},
+    "stats": { "MND": 3 }
+  },
+  {
+    "id": "entomb",
+    "name": "エントゥーム",
+    "bp": 6,
+    "type": "魔法",
+    "traits": { "magic_acc": 8 },
+    "stats": { "VIT": 4 }
+  },
+  {
+    "id": "silent_storm",
+    "name": "サイレントストーム",
+    "bp": 6,
+    "type": "魔法",
+    "traits": {},
+    "stats": { "AGI": 4 }
+  },
+  {
+    "id": "spectral_floe",
+    "name": "スペクトラルフロー",
+    "bp": 6,
+    "type": "魔法",
+    "traits": { "magic_acc": 8 },
+    "stats": { "INT": 4 }
+  },
+  {
+    "id": "anvil_gale",
+    "name": "アンビルゲイル",
+    "bp": 6,
+    "type": "魔法",
+    "traits": {},
+    "stats": { "DEX": 4 }
+  },
+  {
+    "id": "molting_plumage",
+    "name": "モルティングプルミジュ",
+    "bp": 6,
+    "type": "魔法",
+    "traits": {},
+    "stats": { "AGI": 4 }
+  },
+  {
+    "id": "nectarous_deluge",
+    "name": "ネクタラスデルージュ",
+    "bp": 6,
+    "type": "魔法",
+    "traits": {},
+    "stats": { "MND": 4 }
+  },
+  {
+    "id": "atropine_dragon",
+    "name": "アトロピンドラゴン",
+    "bp": 6,
+    "type": "魔法",
+    "traits": {},
+    "stats": { "INT": 4 }
+  },
+  {
+    "id": "sweeping_gouge",
+    "name": "スウィーピングガウジ",
+    "bp": 6,
+    "type": "物理",
+    "traits": { "store_tp": 8 },
+    "stats": { "STR": 3, "AGI": 3 }
+  },
+  {
+    "id": "soothing_ruby",
+    "name": "スージングルビー",
+    "bp": 5,
+    "type": "回復",
+    "traits": {},
+    "stats": { "CHR": 3 }
+  },
+  {
+    "id": "palingenesis",
+    "name": "パリジェネシス",
+    "bp": 4,
+    "type": "強化",
+    "traits": {},
+    "stats": { "HP": 20 }
+  },
+  {
+    "id": "sowing",
+    "name": "ソーウィング",
+    "bp": 3,
+    "type": "弱体",
+    "traits": {},
+    "stats": { "VIT": 2 }
+  },
+  {
+    "id": "diffusion_ray",
+    "name": "ディフュージョンレイ",
+    "bp": 6,
+    "type": "魔法",
+    "traits": { "magic_acc": 8 },
+    "stats": { "INT": 3 }
+  },
+  {
+    "id": "saurian_slide",
+    "name": "ソーリアンスライド",
+    "bp": 6,
+    "type": "物理",
+    "traits": {},
+    "stats": { "STR": 3, "VIT": 3 }
+  },
+  {
+    "id": "tearing_gust",
+    "name": "ティアリングガスト",
+    "bp": 6,
+    "type": "魔法",
+    "traits": {},
+    "stats": { "AGI": 3 }
+  },
+  {
+    "id": "barbed_crescent",
+    "name": "バーブドクレセント",
+    "bp": 3,
+    "type": "物理",
+    "traits": { "dual_wield": 4 },
+    "stats": { "DEX": 2 }
+  },
+  {
+    "id": "cesspool",
+    "name": "セスプール",
+    "bp": 6,
+    "type": "魔法",
+    "traits": {},
+    "stats": { "MND": 3 }
+  },
+  {
+    "id": "crashing_thunder",
+    "name": "クラッシングサンダー",
+    "bp": 6,
+    "type": "魔法",
+    "traits": {},
+    "stats": { "DEX": 3 }
+  },
+  {
+    "id": "cruel_joke",
+    "name": "クルエルジョーク",
+    "bp": 8,
+    "type": "弱体",
+    "traits": {},
+    "stats": { "INT": 5 }
+  },
+  {
+    "id": "mighty_guard",
+    "name": "マイティガード",
+    "bp": 8,
+    "type": "強化",
+    "traits": {},
+    "stats": { "HP": 30, "MP": 30 }
+  },
+  {
+    "id": "cesspool_2",
+    "name": "ポイズンタイド",
+    "bp": 5,
+    "type": "魔法",
+    "traits": {},
+    "stats": { "MND": 3 }
+  },
+  {
+    "id": "tenebral_crush",
+    "name": "テネブラスクラッシュ",
+    "bp": 8,
+    "type": "魔法",
+    "traits": { "magic_acc": 8 },
+    "stats": { "INT": 4, "MND": 4 }
+  },
+  {
+    "id": "shearing_strike",
+    "name": "シアリングストライク",
+    "bp": 5,
+    "type": "物理",
+    "traits": {},
+    "stats": { "STR": 3 }
+  },
+  {
+    "id": "blazing_bound",
+    "name": "ブレイジングバウンド",
+    "bp": 5,
+    "type": "魔法",
+    "traits": {},
+    "stats": { "STR": 3 }
+  },
+  {
+    "id": "demoralizing_roar",
+    "name": "ディモラリジングロア",
+    "bp": 4,
+    "type": "弱体",
+    "traits": {},
+    "stats": { "VIT": 2 }
+  },
+  {
+    "id": "amorphic_spikes",
+    "name": "アモルファススパイク",
+    "bp": 6,
+    "type": "物理",
+    "traits": {},
+    "stats": { "DEX": 3, "INT": 3 }
+  },
+  {
+    "id": "wind_breath",
+    "name": "ウィンドブレス",
+    "bp": 2,
+    "type": "魔法",
+    "traits": {},
+    "stats": { "AGI": 1 }
+  },
+  {
+    "id": "magma_hop",
+    "name": "マグマホップ",
+    "bp": 5,
+    "type": "魔法",
+    "traits": {},
+    "stats": { "STR": 3 }
+  },
+  {
+    "id": "subduction_2",
+    "name": "サブダックション",
+    "bp": 6,
+    "type": "魔法",
+    "traits": { "magic_acc": 4 },
+    "stats": { "INT": 3 }
+  },
+  {
+    "id": "bilgestorm",
+    "name": "ビルジストーム",
+    "bp": 6,
+    "type": "物理",
+    "traits": {},
+    "stats": { "STR": 3, "VIT": 3 }
+  },
+  {
+    "id": "blood_rake",
+    "name": "ブラッドレイク",
+    "bp": 5,
+    "type": "物理",
+    "traits": {},
+    "stats": { "STR": 2, "DEX": 2 }
+  },
+  {
+    "id": "blood_siphon",
+    "name": "ブラッドサイフォン",
+    "bp": 3,
+    "type": "魔法",
+    "traits": {},
+    "stats": { "MP": 10 }
+  },
+  {
+    "id": "mind_blast",
+    "name": "マインドブラスト",
+    "bp": 4,
+    "type": "魔法",
+    "traits": {},
+    "stats": { "MND": 2 }
+  },
+  {
+    "id": "frost_breath",
+    "name": "フロストブレス",
+    "bp": 3,
+    "type": "魔法",
+    "traits": {},
+    "stats": { "INT": 2 }
+  },
+  {
+    "id": "thunder_breath",
+    "name": "サンダーブレス",
+    "bp": 4,
+    "type": "魔法",
+    "traits": {},
+    "stats": { "DEX": 2 }
+  },
+  {
+    "id": "firespit",
+    "name": "ファイアスピット",
+    "bp": 5,
+    "type": "魔法",
+    "traits": {},
+    "stats": { "STR": 3 }
+  },
+  {
+    "id": "warm_up",
+    "name": "ウォームアップ",
+    "bp": 3,
+    "type": "強化",
+    "traits": {},
+    "stats": { "VIT": 2 }
+  },
+  {
+    "id": "amplifier",
+    "name": "アンプリファイア",
+    "bp": 3,
+    "type": "強化",
+    "traits": {},
+    "stats": { "INT": 2 }
+  },
+  {
+    "id": "white_wind",
+    "name": "ホワイトウィンド",
+    "bp": 5,
+    "type": "回復",
+    "traits": { "cure_potency": 8 },
+    "stats": { "HP": 20 }
+  },
+  {
+    "id": "radiant_breath",
+    "name": "ラディアントブレス",
+    "bp": 4,
+    "type": "魔法",
+    "traits": {},
+    "stats": { "CHR": 2 }
+  },
+  {
+    "id": "exuviation",
+    "name": "エクスピアシオン",
+    "bp": 4,
+    "type": "回復",
+    "traits": {},
+    "stats": { "MND": 2 }
+  },
+  {
+    "id": "sprout_smack_2",
+    "name": "リーフストーム",
+    "bp": 4,
+    "type": "魔法",
+    "traits": {},
+    "stats": { "MND": 2 }
+  },
+  {
+    "id": "mortal_ray_2",
+    "name": "デスシザース",
+    "bp": 4,
+    "type": "物理",
+    "traits": {},
+    "stats": { "STR": 2 }
+  },
+  {
+    "id": "bad_breath",
+    "name": "臭い息",
+    "bp": 5,
+    "type": "弱体",
+    "traits": {},
+    "stats": { "MND": 3 }
+  },
+  {
+    "id": "glacier_roar",
+    "name": "グレイシャルロア",
+    "bp": 4,
+    "type": "魔法",
+    "traits": {},
+    "stats": { "INT": 2 }
+  },
+  {
+    "id": "sub_zero_smash_2",
+    "name": "ヘヴィザイル",
+    "bp": 4,
+    "type": "物理",
+    "traits": {},
+    "stats": { "VIT": 2 }
+  },
+  {
+    "id": "vanity_drive",
+    "name": "バニティドライブ",
+    "bp": 4,
+    "type": "物理",
+    "traits": {},
+    "stats": { "STR": 2 }
+  },
+  {
+    "id": "mortal_ray_3",
+    "name": "スパイナルクリーブ",
+    "bp": 5,
+    "type": "物理",
+    "traits": {},
+    "stats": { "STR": 3 }
+  },
+  {
+    "id": "thermal_pulse_2",
+    "name": "ヒートクラッシュ",
+    "bp": 4,
+    "type": "魔法",
+    "traits": {},
+    "stats": { "VIT": 2 }
+  },
+  {
+    "id": "silent_storm_2",
+    "name": "ウインドシアー",
+    "bp": 4,
+    "type": "物理",
+    "traits": {},
+    "stats": { "AGI": 2 }
+  },
+  {
+    "id": "foul_waters_2",
+    "name": "アシッドスプレー",
+    "bp": 4,
+    "type": "魔法",
+    "traits": {},
+    "stats": { "MND": 2 }
+  },
+  {
+    "id": "regurgitation_2",
+    "name": "コーシヴウーズ",
+    "bp": 4,
+    "type": "魔法",
+    "traits": {},
+    "stats": { "MND": 2 }
+  },
+  {
+    "id": "cimicine_discharge",
+    "name": "シメンディスチャージ",
+    "bp": 3,
+    "type": "弱体",
+    "traits": {},
+    "stats": { "VIT": 2 }
+  },
+  {
+    "id": "mortal_ray_4",
+    "name": "アイズオンミー",
+    "bp": 4,
+    "type": "魔法",
+    "traits": {},
+    "stats": { "CHR": 2 }
+  },
+  {
+    "id": "mortal_ray_5",
+    "name": "フライパン",
+    "bp": 4,
+    "type": "物理",
+    "traits": {},
+    "stats": { "DEX": 2 }
+  },
+  {
+    "id": "mortal_ray_6",
+    "name": "ゼファーマント",
+    "bp": 2,
+    "type": "強化",
+    "traits": {},
+    "stats": { "AGI": 1 }
+  },
+  {
+    "id": "mortal_ray_7",
+    "name": "ダイヤモンドダスト",
+    "bp": 8,
+    "type": "魔法",
+    "traits": {},
+    "stats": { "INT": 5 }
+  },
+  {
+    "id": "mortal_ray_8",
+    "name": "エクリプスメテオ",
+    "bp": 8,
+    "type": "魔法",
+    "traits": {},
+    "stats": { "INT": 5 }
+  },
+  {
+    "id": "mortal_ray_9",
+    "name": "ファイナルスピア",
+    "bp": 5,
+    "type": "物理",
+    "traits": {},
+    "stats": { "STR": 3 }
+  },
+  {
+    "id": "mortal_ray_10",
+    "name": "ゴブリンパンチ",
+    "bp": 1,
+    "type": "物理",
+    "traits": {},
+    "stats": { "STR": 1 }
+  },
+  {
+    "id": "mortal_ray_11",
+    "name": "針千本",
+    "bp": 5,
+    "type": "魔法",
+    "traits": {},
+    "stats": { "VIT": 3 }
+  },
+  {
+    "id": "mortal_ray_12",
+    "name": "マジックハンマー",
+    "bp": 3,
+    "type": "魔法",
+    "traits": {},
+    "stats": { "MND": 2 }
+  },
+  {
+    "id": "mortal_ray_13",
+    "name": "アザーネス",
+    "bp": 3,
+    "type": "強化",
+    "traits": {},
+    "stats": { "CHR": 2 }
+  },
+  {
+    "id": "mortal_ray_14",
+    "name": "マイティガード",
+    "bp": 8,
+    "type": "強化",
+    "traits": {},
+    "stats": { "HP": 30, "MP": 30 }
+  },
+  {
+    "id": "mortal_ray_15",
+    "name": "超音波",
+    "bp": 2,
+    "type": "弱体",
+    "traits": {},
+    "stats": { "AGI": 1 }
+  },
+  {
+    "id": "mortal_ray_16",
+    "name": "死の託宣",
+    "bp": 4,
+    "type": "弱体",
+    "traits": {},
+    "stats": { "INT": 2 }
+  },
+  {
+    "id": "mortal_ray_17",
+    "name": "サンダーボルト",
+    "bp": 5,
+    "type": "魔法",
+    "traits": {},
+    "stats": { "DEX": 3 }
+  },
+  {
+    "id": "mortal_ray_18",
+    "name": "甲ラ強化",
+    "bp": 2,
+    "type": "強化",
+    "traits": {},
+    "stats": { "VIT": 1 }
+  },
+  {
+    "id": "mortal_ray_19",
+    "name": "静寂の言葉",
+    "bp": 3,
+    "type": "弱体",
+    "traits": {},
+    "stats": { "MND": 2 }
+  },
+  {
+    "id": "mortal_ray_20",
+    "name": "ワームアップ",
+    "bp": 3,
+    "type": "強化",
+    "traits": {},
+    "stats": { "VIT": 2 }
+  },
+  {
+    "id": "mortal_ray_21",
+    "name": "デスバウンド",
+    "bp": 4,
+    "type": "物理",
+    "traits": {},
+    "stats": { "STR": 2 }
+  },
+  {
+    "id": "mortal_ray_22",
+    "name": "ファンタッド",
+    "bp": 2,
+    "type": "強化",
+    "traits": {},
+    "stats": { "STR": 1 }
+  },
+  {
+    "id": "mortal_ray_23",
+    "name": "メメントモリ",
+    "bp": 4,
+    "type": "強化",
+    "traits": {},
+    "stats": { "INT": 2 }
+  },
+  {
+    "id": "mortal_ray_24",
+    "name": "ベンシクタイフーン",
+    "bp": 4,
+    "type": "物理",
+    "traits": {},
+    "stats": { "AGI": 2 }
+  },
+  {
+    "id": "mortal_ray_25",
+    "name": "ポイズンネイル",
+    "bp": 2,
+    "type": "物理",
+    "traits": {},
+    "stats": { "DEX": 1 }
+  },
+  {
+    "id": "mortal_ray_26",
+    "name": "モルティングプルミジュ",
+    "bp": 6,
+    "type": "魔法",
+    "traits": {},
+    "stats": { "AGI": 4 }
+  },
+  {
+    "id": "mortal_ray_27",
+    "name": "N.メディテイト",
+    "bp": 6,
+    "type": "強化",
+    "traits": { "attack_up": 8 },
+    "stats": { "STR": 3 }
+  },
+  {
+    "id": "mortal_ray_28",
+    "name": "デルタスラスト",
+    "bp": 2,
+    "type": "物理",
+    "traits": { "dual_wield": 4 },
+    "stats": { "HP": 15, "MP": 15 }
+  },
+  {
+    "id": "mortal_ray_29",
+    "name": "エラチックフラッター",
+    "bp": 6,
+    "type": "強化",
+    "traits": { "fast_cast": 8 },
+    "stats": { "AGI": 3 }
+  },
+  {
+    "id": "mortal_ray_30",
+    "name": "四連突",
+    "bp": 4,
+    "type": "物理",
+    "traits": { "dual_wield": 4 },
+    "stats": { "DEX": 2, "AGI": 2 }
+  },
+  {
+    "id": "mortal_ray_31",
+    "name": "サブダックション",
+    "bp": 6,
+    "type": "魔法",
+    "traits": { "magic_acc": 4 },
+    "stats": { "INT": 3 }
+  },
+  {
+    "id": "mortal_ray_32",
+    "name": "パラライジングトライアド",
+    "bp": 6,
+    "type": "物理",
+    "traits": { "dual_wield": 8 },
+    "stats": { "STR": 3, "DEX": 3 }
+  },
+  {
+    "id": "mortal_ray_33",
+    "name": "カルカリリアンバーサク",
+    "bp": 3,
+    "type": "強化",
+    "traits": { "attack_up": 4 },
+    "stats": { "STR": 2 }
+  },
+  {
+    "id": "mortal_ray_34",
+    "name": "テネブラスクラッシュ",
+    "bp": 8,
+    "type": "魔法",
+    "traits": { "magic_acc": 8 },
+    "stats": { "INT": 4, "MND": 4 }
+  },
+  {
+    "id": "mortal_ray_35",
+    "name": "クルエルジョーク",
+    "bp": 8,
+    "type": "弱体",
+    "traits": {},
+    "stats": { "INT": 5 }
+  },
+  {
+    "id": "mortal_ray_36",
+    "name": "エントゥーム",
+    "bp": 6,
+    "type": "魔法",
+    "traits": { "magic_acc": 8 },
+    "stats": { "VIT": 4 }
+  },
+  {
+    "id": "mortal_ray_37",
+    "name": "スペクトラルフロー",
+    "bp": 6,
+    "type": "魔法",
+    "traits": { "magic_acc": 8 },
+    "stats": { "INT": 4 }
+  },
+  {
+    "id": "mortal_ray_38",
+    "name": "シアリングウィンド",
+    "bp": 6,
+    "type": "魔法",
+    "traits": {},
+    "stats": { "STR": 3 }
+  },
+  {
+    "id": "mortal_ray_39",
+    "name": "スカウリングスペイト",
+    "bp": 6,
+    "type": "魔法",
+    "traits": {},
+    "stats": { "MND": 3 }
+  },
+  {
+    "id": "mortal_ray_40",
+    "name": "アンビルゲイル",
+    "bp": 6,
+    "type": "魔法",
+    "traits": {},
+    "stats": { "DEX": 4 }
+  },
+  {
+    "id": "mortal_ray_41",
+    "name": "ブラッドレイク",
+    "bp": 5,
+    "type": "物理",
+    "traits": {},
+    "stats": { "STR": 2, "DEX": 2 }
+  },
+  {
+    "id": "mortal_ray_42",
+    "name": "ディフュージョンレイ",
+    "bp": 6,
+    "type": "魔法",
+    "traits": { "magic_acc": 8 },
+    "stats": { "INT": 3 }
+  },
+  {
+    "id": "mortal_ray_43",
+    "name": "シンサド",
+    "bp": 6,
+    "type": "物理",
+    "traits": {},
+    "stats": { "STR": 3 }
+  },
+  {
+    "id": "mortal_ray_44",
+    "name": "テラータッチ",
+    "bp": 3,
+    "type": "物理",
+    "traits": {},
+    "stats": { "DEX": 1 }
+  },
+  {
+    "id": "mortal_ray_45",
+    "name": "レチナルグレア",
+    "bp": 6,
+    "type": "魔法",
+    "traits": { "magic_acc": 8 },
+    "stats": { "INT": 3 }
+  },
+  {
+    "id": "mortal_ray_46",
+    "name": "ビルジストーム",
+    "bp": 6,
+    "type": "物理",
+    "traits": {},
+    "stats": { "STR": 3, "VIT": 3 }
+  },
+  {
+    "id": "mortal_ray_47",
+    "name": "スレッシングアサルト",
+    "bp": 7,
+    "type": "物理",
+    "traits": { "dual_wield": 8 },
+    "stats": { "STR": 4, "DEX": 4 }
+  },
+  {
+    "id": "mortal_ray_48",
+    "name": "ピュビュルブレイク",
+    "bp": 7,
+    "type": "弱体",
+    "traits": {},
+    "stats": { "INT": 4 }
   }
 ]
